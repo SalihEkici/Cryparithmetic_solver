@@ -3,12 +3,12 @@ from simpleai.search import CspProblem, backtrack
 
 # Set page title and background color
 st.set_page_config(
-    page_title="Salih Ekici's Cryptarithmetic puzzle solver",
+    page_title="Salih Ekici's Cryptoarithmetic puzzle solver",
     page_icon="✏️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.title("Salih Ekici's Cryptarithmetic puzzle solver")
+st.title("Salih Ekici's Cryptoarithmetic puzzle solver")
 
 # Create a sidebar for input fields
 st.sidebar.header("Input Fields")
